@@ -16,7 +16,7 @@ hosted on : http://localhost:3000/
 NodeJs/expressJs -- backend
 cd backend  
 npm i
-nodemon
+node server.js
 
 hosted on : http://localhost:8000/
 
