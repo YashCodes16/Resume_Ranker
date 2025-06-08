@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="referrer" content="no-referrer-when-downgrade"> -->
+
+    <title>Resume Ranker - Hackathon MAY 2025</title>
+    <link rel="stylesheet" href="./frontPage.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <div class="container">
+        <div class="header">
+            <h1 class="logo">Resume Ranker</h1>
+            <p class="tagline">Resume Analysis & Ranking</p>
+            <p class="subtitle">Upload job descriptions and multiple resumes to get intelligent ranking and detailed
+                analysis powered by advanced NLP algorithms</p>
+        </div>
+
+        <div class="main-card">
+            <!-- Form wrapper -->
+            <!-- <form id="resumeAnalysisForm" method="post" action="http://localhost:3000/api/resumes"
+                enctype="multipart/form-data"> -->
+            <form id="resumeAnalysisForm" enctype="multipart/form-data" onsubmit="handleFormSubmit(event)">
+
+                <!-- Job Description Section -->
+                <div class="form-section">
+                    <h2 class="section-title">
+                        <div class="section-icon">📝</div>
+                        Job Description
+                    </h2>
+                    <div class="job-description-section">
+                        <div class="textarea-container">
+                            <label class="textarea-label">Paste your job description here</label>
+                            <textarea class="job-textarea" id="jobDescription" name="jobDescription"
+                                placeholder="Enter the complete job description including required skills, experience, qualifications, and responsibilities..."
+                                rows="8" required></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2 class="section-title">
+                        <div class="section-icon">📄</div>
+                        Resume Upload
+                    </h2>
+                    <div class="upload-section" id="uploadArea">
+                        <div class="upload-icon">☁️</div>
+                        <div class="upload-text">Drag & Drop Resumes Here</div>
+                        <div class="upload-subtext">or click to browse files</div>
+                        <input type="file" id="fileInput" name="resumeUpload" class="file-input" multiple
+                            accept=".pdf,.doc,.docx">
+                        <button type="button" class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                            Choose Files
+                        </button>
+                        <div class="upload-subtext" style="margin-top: 15px;">
+                            Supports PDF, DOC, DOCX • Max 10MB per file
+                        </div>
+                    </div>
+
+                    <div class="file-list" id="fileList"></div>
+                </div>
+
+                <!-- Stats Bar -->
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-number" id="jobWordCount">0</span>
+                        <span class="stat-label">Job Words</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="resumeCount">0</span>
+                        <span class="stat-label">Resumes</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalSize">0MB</span>
+                        <span class="stat-label">Total Size</span>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="analyze-btn" id="analyzeBtn" disabled>
+                    <span id="btnText">Analyze Resumes</span>
+                    <div class="loading-spinner" id="loadingSpinner"></div>
+                </button>
+            </form>
+
+            <div class="progress-bar" id="progressBar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <div class="feature-title">Smart Matching</div>
+                    <div class="feature-desc">Advanced AI algorithms match skills and experience with job requirements
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <div class="feature-title">Detailed Analytics</div>
+                    <div class="feature-desc">Comprehensive scoring and analysis for each resume</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-title">Instant Results</div>
+                    <div class="feature-desc">Get ranked results and insights in seconds</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <div class="feature-title">Secure & Private</div>
+                    <div class="feature-desc">Your data is processed securely and never stored</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./frontPage.js">
+    </script>
+</body>
+
+</html>

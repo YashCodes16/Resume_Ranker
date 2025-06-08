@@ -1,0 +1,38 @@
+{
+  "name": "resume_ranker",
+  "version": "1.0.0",
+  "description": "This is a resume ranker project forr hackathon , which is divided into three parts. One part is frontend , one is backend which is in nodejs and express with multiple libraries to create a fully fledged application and the last part in python and flask to analyze the resume with respect to job description with the help of nlp.",
+  "keywords": [
+    "resume",
+    "ranker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "Yashcodes16"
+  },
+  "license": "ISC",
+  "author": "Yash dua",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "mammoth": "^1.9.1",
+    "multer": "^2.0.1",
+    "node": "^22.16.0",
+    "nodejs": "^0.0.0",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.17.1",
+    "puppeteer": "^24.10.0",
+    "winston": "^3.17.0"
+  }
+}
