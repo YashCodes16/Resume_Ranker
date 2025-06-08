@@ -26,7 +26,7 @@ Python -- Microservice
 
 cd resumeRankerNLPMicroservice
 python -m venv venv
-source venv/bin/activate # (or venv\Scripts\activate on Windows)
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m spacy download en_core_web_md
 python run.py
