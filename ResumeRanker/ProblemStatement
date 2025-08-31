@@ -1,7 +1,0 @@
-#Resume Analyser -- A backend system with APIs for resume-job analysis using NLP 
-
-
-# My plan :-> 
-Frontend -- HTML / CSS / JS
-Backend -- NodeJS, ExpressJS, REST API's, cors, dotenv, express-validator ..etc
-NLP -- Python, flask, spaCy
