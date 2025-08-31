@@ -1,0 +1,35 @@
+[2025-06-16 03:03:16,507] INFO in routes: Response Data: {"atsCompatible":false,"extractedSkillsFromJD":["maintain","modern","skill","framework","performance","experience","angular","technology","library","application","frontend","team","improve","development","strong","practice","familiarity","react","code","continuously","new","cloud","backend","web","software"],"formatIssues":["Missing multiple key sections: certifications, projects, summary","Mixed fonts detected","Contains non-ASCII or special symbols"],"jaccardScore":0.05,"matchScore":16,"matchedSkills":["maintain","experience","development","skill"],"missingSkills":["modern","framework","performance","angular","technology","library","application","frontend","team","improve","strong","practice","familiarity","react","code","continuously","new","cloud","backend","web","software"],"recommendations":["Add missing skills: Modern, Framework, Performance","Add a professional summary section","Ensure sections like Education, Experience, and Skills are clearly labeled","Address mixed font formatting issues","Include more quantifiable achievements and action verbs","Highlight technical experience or tools more prominently"],"sectionScores":{"content":38,"format":70,"sections":95,"style":50,"tailoring":100},"spacyScore":93.15,"summaryText":"Your resume is well-structured but lacks few key skills from the JD. Add more quantifiable achievements.","topKeywords":[["fe",5],["nm",5],["teacher",5],["elementary",5],["student",4],["school",4],["santa",4],["balsam",3],["objective",2],["provide",2]],"wordCount":161}
+
+[2025-06-16 03:03:18,372] INFO in routes: Response Status: 200 OK
+[2025-06-16 03:03:18,374] INFO in routes: Response Data: {"atsCompatible":false,"extractedSkillsFromJD":["maintain","modern","skill","framework","performance","experience","angular","technology","library","application","frontend","team","improve","development","strong","practice","familiarity","react","code","continuously","new","cloud","backend","web","software"],"formatIssues":["Missing multiple key sections: certifications, projects, summary","Mixed fonts detected","Contains non-ASCII or special symbols"],"jaccardScore":0.03,"matchScore":8,"matchedSkills":["experience","skill"],"missingSkills":["maintain","modern","framework","performance","angular","technology","library","application","frontend","team","improve","development","strong","practice","familiarity","react","code","continuously","new","cloud","backend","web","software"],"recommendations":["Add missing skills: Maintain, Modern, Framework","Add a professional summary section","Ensure sections like Education, Experience, and Skills are clearly labeled","Address mixed font formatting issues","Include more quantifiable achievements and action verbs","Highlight technical experience or tools more prominently"],"sectionScores":{"content":24,"format":70,"sections":90,"style":50,"tailoring":100},"spacyScore":92.49,"summaryText":"Your resume is well-structured but lacks few key skills from the JD. Add more quantifiable achievements.","topKeywords":[["key",15],["office",12],["manager",12],["job",12],["description",12],["target",9],["summarize",9],["responsibility",9],["accomplishment",9],["use",9]],"wordCount":477}
+
+[2025-06-18 00:42:35,289] INFO in routes: Incoming Request: GET http://192.168.1.71:5000/
+[2025-06-18 00:42:35,304] WARNING in routes: 404 Error: GET http://192.168.1.71:5000/
+[2025-06-18 00:42:35,313] INFO in routes: Response Status: 404 NOT FOUND
+[2025-06-18 00:42:35,315] INFO in routes: Response Data: {"error":"Route not found"}
+
+[2025-06-18 00:42:44,006] INFO in routes: Incoming Request: GET http://192.168.1.71:5000/
+[2025-06-18 00:42:44,010] WARNING in routes: 404 Error: GET http://192.168.1.71:5000/
+[2025-06-18 00:42:44,012] INFO in routes: Response Status: 404 NOT FOUND
+[2025-06-18 00:42:44,014] INFO in routes: Response Data: {"error":"Route not found"}
+
+[2025-06-18 00:42:44,208] INFO in routes: Incoming Request: GET http://192.168.1.71/loginMsg.js
+[2025-06-18 00:42:44,212] WARNING in routes: 404 Error: GET http://192.168.1.71/loginMsg.js
+[2025-06-18 00:42:44,215] INFO in routes: Response Status: 404 NOT FOUND
+[2025-06-18 00:42:44,217] INFO in routes: Response Data: {"error":"Route not found"}
+
+[2025-06-18 00:42:44,329] INFO in routes: Incoming Request: GET http://192.168.1.71/cgi/get.cgi?cmd=home_login
+[2025-06-18 00:42:44,332] WARNING in routes: 404 Error: GET http://192.168.1.71/cgi/get.cgi?cmd=home_login
+[2025-06-18 00:42:44,337] INFO in routes: Response Status: 404 NOT FOUND
+[2025-06-18 00:42:44,341] INFO in routes: Response Data: {"error":"Route not found"}
+
+[2025-06-18 00:42:45,245] INFO in routes: Incoming Request: GET http://192.168.1.71/rootDesc.xml
+[2025-06-18 00:42:45,250] WARNING in routes: 404 Error: GET http://192.168.1.71/rootDesc.xml
+[2025-06-18 00:42:45,251] INFO in routes: Response Status: 404 NOT FOUND
+[2025-06-18 00:42:45,252] INFO in routes: Response Data: {"error":"Route not found"}
+
+[2025-06-18 00:42:45,377] INFO in routes: Incoming Request: GET http://192.168.1.71:5000/boaform/admin/formPing/diag_ping.asp
+[2025-06-18 00:42:45,386] WARNING in routes: 404 Error: GET http://192.168.1.71:5000/boaform/admin/formPing/diag_ping.asp
+[2025-06-18 00:42:45,391] INFO in routes: Response Status: 404 NOT FOUND
+[2025-06-18 00:42:45,396] INFO in routes: Response Data: {"error":"Route not found"}
+

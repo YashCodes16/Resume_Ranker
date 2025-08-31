@@ -1,0 +1,30 @@
+{"severity":"error","timestamp":"2025-06-12T13:44:58.961Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T13:45:01.623Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T13:49:07.946Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T13:49:32.922Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T13:50:43.321Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T13:51:20.054Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T13:51:44.658Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T13:52:09.416Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:01:33.766Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:36:08.184Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:36:12.430Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:36:35.089Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:37:46.735Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:38:38.969Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:38:54.514Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:39:01.247Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:39:06.462Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:39:33.953Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:40:49.115Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:41:58.330Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:43:14.723Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T14:57:05.484Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-12T15:55:49.605Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-13T14:51:36.162Z","requestUrl":"/loginMsg.js","message":"API not found. Please refer to our documentation page /api-docs"}
+{"severity":"error","timestamp":"2025-06-13T14:51:36.185Z","requestUrl":"/cgi/get.cgi?cmd=home_login","message":"API not found. Please refer to our documentation page /api-docs"}
+{"severity":"error","timestamp":"2025-06-13T15:26:13.821Z","requestUrl":"/api/resumes","message":"Oops! Something went wrong... Please try again later!"}
+{"severity":"error","timestamp":"2025-06-15T08:17:00.714Z","requestUrl":"/loginMsg.js","message":"API not found. Please refer to our documentation page /api-docs"}
+{"severity":"error","timestamp":"2025-06-15T08:17:00.737Z","requestUrl":"/cgi/get.cgi?cmd=home_login","message":"API not found. Please refer to our documentation page /api-docs"}
+{"severity":"error","timestamp":"2025-06-15T21:28:26.061Z","requestUrl":"/loginMsg.js","message":"API not found. Please refer to our documentation page /api-docs"}
+{"severity":"error","timestamp":"2025-06-15T21:28:26.163Z","requestUrl":"/cgi/get.cgi?cmd=home_login","message":"API not found. Please refer to our documentation page /api-docs"}
